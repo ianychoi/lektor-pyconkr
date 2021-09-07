@@ -1,0 +1,20 @@
+*.db
+*.sqlite3
+*.pyc
+*~
+env
+venv
+
+# Accept these files in the repository
+!.gitignore
+!.travis.yml
+/.env
+/.venv
+/.vscode
+.deployment
+
+# No need to manage the following macOS file(s)
+.DS_Store
+
+# Lektor site directory
+site
